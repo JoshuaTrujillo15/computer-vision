@@ -3,7 +3,7 @@ import cv2 as cv
 cap = cv.VideoCapture(0)
 ret, frame = cap.read()
 
-haar_cascade = cv.CascadeClassifier('opencv/data_sets/haar_face.xml')
+haar_cascade = cv.CascadeClassifier('data_sets/haar_face.xml')
 
 while ret:
     # operations on frame
